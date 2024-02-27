@@ -1,23 +1,31 @@
 
 import './output.css';
 import Adminform from './pages/Adminform';
+import Pointstable from './pages/Pointstable';
 import Main from './pages/main';
+import Literature from './pages/literature';
+import Dance from './pages/dance';
+import Finearts from './pages/finearts';
+import Music from './pages/music';
+import Theatre from './pages/theatre';
+import Footer from './components/Footer';
 import {Routes, Route, BrowserRouter} from "react-router-dom";
-import Scorepage from './pages/Scorepage';
-import { createClient } from "@supabase/supabase-js";
-const supabaseUrl = 'https://hsfedrdtdosvfuynfdsj.supabase.co'
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhzZmVkcmR0ZG9zdmZ1eW5mZHNqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDg1MDQ5MDAsImV4cCI6MjAyNDA4MDkwMH0.i1n9nlnl9yFTxDVZmQERFFEc4zIc7GcTg4iES4wa4SE"
-const supabase = createClient(supabaseUrl, supabaseKey)
 function App() {
   return (
     <div>
       <BrowserRouter>
 
      <Routes>
-      
       <Route path='/' element={<Main/>}/>
-      <Route path='/score' element={<Scorepage/>}/>
+      <Route path="/adminform" element={<Adminform/>}/>
+      <Route path="/livescore" element={<Pointstable/>}/>
+      <Route path="/literature" element={<Literature/>}/>
+      <Route path="/music" element={<Music/>}/>
+      <Route path="/dance" element={<Dance/>}/>
+      <Route path="/theatre" element={<Theatre/>}/>
+      <Route path="/finearts" element={<Finearts/>}/>
      </Routes>
+     <Footer/>
      </BrowserRouter>
   </div>
   );
