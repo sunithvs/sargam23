@@ -1,22 +1,77 @@
-import React from 'react'
+import React from "react";
 
-function Music() {
+const Music = () => {
   return (
-    <div style={{ textAlign: 'center' }}>
-      <h1 style={{ color: '#333' }}>EVENTS</h1>
-      <h2 style={{ color: '#555' }}>Music</h2>
-      <ul style={{ listStyleType: 'none', padding: 0 }}>
-        <li>Concert: Classical Ensemble</li>
-        <li>Jazz Jam Session</li>
-        <li>Music Workshop: Exploring Different Genres</li>
-      </ul>
+    <div className=" flex flex-col items-center  p-4 w-screen bg-gradient-to-r from-slate-900 to-slate-700 text-white lg:h-screen=] ">
+      {/* parent */}
 
-      {/* Add your image URLs below */}
-      <img src="image1.jpg" alt="Event Image 1" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-      <img src="image2.jpg" alt="Event Image 2" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-      <img src="image3.jpg" alt="Event Image 3" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
+      <h1 className="text-6xl p-4">MUSIC</h1>
+
+      <div className="flex flex-col items-center w-full h-full lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:items-center gap-4">
+
+      <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-72  ">
+        
+        <ul>
+          <li>LIGHT MUSIC (M/F)</li>
+          <li>MAPPILAPPATTU (M/F)</li>
+          <li>HINDUSTANI VOCAL (M/F)</li>
+          <li>GAZAL (M/F)</li>
+          <li>WESTERN VOCAL SOLO</li>
+          <li>CLASSICAL MUSIC (M/F)</li>
+        </ul>
+      </div>
+
+      <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-72 ">
+        <h1 className="font-semibold text-sm">STRINGED INSTRUMENTS</h1>
+        <ul>
+          <li>VEENA</li>
+          
+          <li>EASTERN STYLE</li>
+          
+          <li>WESTERN STYLE</li>
+          <li>GUITAR</li>
+         
+        </ul>
+      </div>
+
+      <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-72 ">
+        <h1 className="font-semibold">WIND INSTRUMENTS</h1>
+        <ul>
+          <li>EASTERN STYLE</li>
+          <li>WESTERN STYLE</li>
+        </ul>
+      </div>
+
+      <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-72 ">
+        <h1 className="font-semibold">PERCUSSION INSTRUMENTS</h1>
+        <ul>
+          <li>TABLA</li>
+          <li>EASTERN STYLE</li>
+          <li>WESTERN STYLE</li>
+          <li>CHENDA</li>
+          
+        </ul>
+      </div>
+
+      <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-72 ">
+        
+        <ul>
+          <li>GANAMELA</li>
+          <li>WESTERN VOCAL GROUP</li>
+          <li>VANCHIPAATU</li>
+          <li>GROUPSONG</li>
+          <li>FOLKSONG</li>
+          <li>VRINDHAVADHYA</li>
+        </ul>
+      </div>
+
+      
+      
+      </div>
+      
+        
     </div>
-  )
-}
+  );
+};
 
-export default Music
+export default Music;

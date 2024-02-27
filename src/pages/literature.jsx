@@ -1,28 +1,110 @@
-import React from 'react'
+import React from "react";
 
-function Literature() {
+const Literature = () => {
   return (
-    <div style={{ textAlign: 'center' }}>
-      <h1 style={{ color: '#333' }}>EVENTS</h1>
-      <h2 style={{ color: '#555' }}>Literature</h2>
-      <ul style={{ listStyleType: 'none', padding: 0 }}>
-        <li>Debate English</li>
-        <li>Debate Malayalam</li>
-        <li>Debate Hindi</li>
-        <li>Elocution English</li>
-        <li>Elocution Malayalam</li>
-        <li>Elocution Hindi</li>
-        <li>Elocution Sankrit </li>
-        <li>Elocution Arabic </li>
+    <div className=" flex flex-col items-center  p-4 w-screen bg-gradient-to-r from-slate-900 to-slate-700 text-white  ">
+      {/* parent */}
 
-      </ul>
+      <h1 className="text-6xl p-4">LITERATURE</h1>
 
-      {/* Add your image URLs below */}
-      <img src="image1.jpg" alt="Event Image 1" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-      <img src="image2.jpg" alt="Event Image 2" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-      <img src="image3.jpg" alt="Event Image 3" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
+      <div className="flex flex-col items-center w-full h-full lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:items-center gap-4">
+
+      <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-64  ">
+        <h1 className="font-semibold">ESSAY WRITING</h1>
+        <ul>
+          <li>MALAYALAM</li>
+          <li>ENGLISH</li>
+          <li>HINDI</li>
+          <li>ARABIC</li>
+          <li>TAMIL</li>
+          <li>URDU</li>
+        </ul>
+      </div>
+
+      <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-64 ">
+        <h1 className="font-semibold text-sm">AKSHARASLOKAM</h1>
+        <ul>
+          <li>MALAYALAM</li>
+          
+          <li>ARABIC</li>
+          
+          <li>SANSKRIT</li>
+         
+        </ul>
+      </div>
+
+      <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-64 ">
+        <h1 className="font-semibold">RECITATION</h1>
+        <ul>
+          <li>MALAYALAM</li>
+          <li>ENGLISH</li>
+          <li>HINDI</li>
+          <li>ARABIC</li>
+          <li>TAMIL</li>
+          <li>SANSKRIT</li>
+          <li>URDU</li>
+        </ul>
+      </div>
+
+      <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-64 ">
+        <h1 className="font-semibold">ELOCUTION</h1>
+        <ul>
+          <li>MALAYALAM</li>
+          <li>ENGLISH</li>
+          <li>HINDI</li>
+          <li>ARABIC</li>
+          <li>TAMIL</li>
+          <li>SANSKRIT</li>
+        </ul>
+      </div>
+
+      <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-64 ">
+        <h1 className="font-semibold">SHORT STORY WRITING</h1>
+        <ul>
+          <li>MALAYALAM</li>
+          <li>ENGLISH</li>
+          <li>HINDI</li>
+          <li>ARABIC</li>
+          <li>TAMIL</li>
+          <li>SANSKRIT</li>
+          <li>URDU</li>
+        </ul>
+      </div>
+
+      <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-64 ">
+        <h1 className="font-semibold">DEBATE</h1>
+        <ul>
+          <li>MALAYALAM</li>
+          <li>ENGLISH</li>
+          <li>HINDI</li>
+          
+        </ul>
+      </div>
+
+      <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-64 ">
+        <h1 className="font-semibold">POETRY WRITING</h1>
+        <ul>
+          <li>MALAYALAM</li>
+          <li>ENGLISH</li>
+          <li>HINDI</li>
+          <li>ARABIC</li>
+          <li>TAMIL</li>
+          <li>SANSKRIT</li>
+          <li>URDU</li>
+        </ul>
+      </div>
+
+      <div className="flex flex-col  justify-center  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-64 ">
+        <h1 className="font-semibold">SHORT FILM REVIEW</h1>
+        <h1 className="font-semibold">QUIZ</h1>
+        
+      </div>
+      
+      </div>
+      
+        
     </div>
-  )
-}
+  );
+};
 
-export default Literature
+export default Literature;
