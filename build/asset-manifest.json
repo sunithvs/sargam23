@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea6c3f39.css",
+    "main.js": "/static/js/main.f7af8281.js",
+    "static/js/160.f02ec154.chunk.js": "/static/js/160.f02ec154.chunk.js",
+    "static/media/bgvd2.mp4": "/static/media/bgvd2.69ce236f54095682a98e.mp4",
+    "static/media/bg3.png": "/static/media/bg3.04134e5f3c5f13b85e78.png",
+    "static/media/aboout.png": "/static/media/aboout.9187a2dbcff69fc52011.png",
+    "static/media/Sargamwhiteplain.png": "/static/media/Sargamwhiteplain.b371e7e026df893c9ed2.png",
+    "static/media/theatre.png": "/static/media/theatre.7d365d0711d9fae5fa6e.png",
+    "static/media/literature.png": "/static/media/literature.2267d8c91db8c6eb8744.png",
+    "static/media/dancing.png": "/static/media/dancing.9b9f5375af6ca0e6f707.png",
+    "static/media/fine-arts.png": "/static/media/fine-arts.478367c2c3b8963a9c69.png",
+    "static/media/musical-note.png": "/static/media/musical-note.f715b1b8bf11b02b1f94.png",
+    "index.html": "/index.html",
+    "main.ea6c3f39.css.map": "/static/css/main.ea6c3f39.css.map",
+    "main.f7af8281.js.map": "/static/js/main.f7af8281.js.map",
+    "160.f02ec154.chunk.js.map": "/static/js/160.f02ec154.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea6c3f39.css",
+    "static/js/main.f7af8281.js"
+  ]
+}
