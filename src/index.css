@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+animate-fade-in-out {
+    animation: fadeInOut 3s ease-in-out infinite;
+  }
+  
+  @keyframes fadeInOut {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .animate-pulse-fade {
+    animation: pulseFade 3s ease-in-out infinite;
+  }
+  
+  .anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .text-english {
+    font-family: Arial, sans-serif;
+  }
+  
+  .text-malayalam {
+    font-family: Malayalam Sangam MN; /* Replace with your preferred Malayalam font */
+    direction: rtl; /* Setting direction for right-to-left languages */
+  }
+  
+  .text-tamil {
+    font-family: Meera, sans-serif; /* Replace with your preferred Tamil font */
+  }
+  
+  .text-hindi, .text-sanskrit {
+    font-family: Sanskrit Text, sans-serif; /* Replace with your preferred Hindi/Sanskrit fonts */
+  }
+  
+  .text-urdu {
+    font-family: Urdu Nastalik, serif; /* Replace with your preferred Urdu font */
+    direction: rtl; /* Setting direction for right-to-left languages */
+  }
+  
+  .text-arabic {
+    font-family: Arabic Transparent, serif; /* Replace with your preferred Arabic font */
+    direction: rtl; /* Setting direction for right-to-left languages */
+  }
+
+  .itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
+  
+  

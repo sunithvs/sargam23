@@ -2,15 +2,13 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
-            <footer className="container-fluid footer_section">
-      <p>
-        &copy; 2023 All Rights Reserved By
-        <a href="https://studentsunion.cusat.ac.in/"
-          >Cochin University Students Union</a
-        >
-      </p>
-    </footer>
+    <div className=' bg-black flex flex-col w-screen items-center justify-center text-gray-300 p-4 gap-2 tracking-widest'>
+      <h1>&copy; 2024 All Rights Reserved BY  </h1>
+      <h1><a href="https://studentsunion.cusat.ac.in" >Cochin Univeristy Students Union </a></h1>
+
+
+      
+         
     </div>
   )
 }

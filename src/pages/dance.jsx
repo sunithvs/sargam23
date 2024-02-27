@@ -1,22 +1,45 @@
-import React from 'react'
+import React from "react";
 
-function Dance() {
+const Dance = () => {
   return (
-    <div style={{ textAlign: 'center' }}>
-    <h1 style={{ color: '#333' }}>EVENTS</h1>
-    <h2 style={{ color: '#555' }}>Dance</h2>
-    <ul style={{ listStyleType: 'none', padding: 0 }}>
-      <li>Ballet Performance</li>
-      <li>Street Dance Battle</li>
-      <li>Contemporary Dance Showcase</li>
-    </ul>
+    <div className=" flex flex-col items-center  p-4 w-screen bg-gradient-to-r from-slate-900 to-slate-700 text-white lg:h-screen ">
+      {/* parent */}
 
-    {/* Add your image URLs below */}
-    <img src="image1.jpg" alt="Event Image 1" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-    <img src="image2.jpg" alt="Event Image 2" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-    <img src="image3.jpg" alt="Event Image 3" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
-  </div>
-  )
-}
+      <h1 className="text-6xl p-4">DANCE</h1>
 
-export default Dance
+      <div className="flex flex-col items-center w-full h-full lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:items-center gap-4">
+        <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-72  ">
+          <ul>
+            <li>MOHINIYATTAM</li>
+            <li>BHARATANATYAM(M/F)</li>
+            <li>KUCHIPUDI(M/F)</li>
+            <li>FOLK DANCE(M/F)</li>
+            <li>KATHAKALI(M/F)</li>
+            <li>OTTAMTHULLAL(M/F)</li>
+            <li>ADAPT TUNE</li>
+            <li>KERALA NADANAM(M/F)</li>
+          </ul>
+        </div>
+
+        <div className="flex flex-col items-center justify-start  bg-black rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-gray-100 w-52 p-4 shadow-2xl lg:h-72 ">
+          
+          <ul>
+            <li>GROUP DANCE</li>
+            <li>KERALA NADANAM GROUP</li>
+            <li>VATTAPATTU</li>
+            <li>THIRUVATHIRA</li>
+            <li>OPPANA(F)</li>
+            <li>MARGAMKALI</li>
+            <li>DUFFMUTTU</li>
+            <li>KOLKALI</li>
+            <li>STEP IN SYNCHRO</li>
+          </ul>
+        </div>
+
+       
+      </div>
+    </div>
+  );
+};
+
+export default Dance;
